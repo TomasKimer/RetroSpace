@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\GameFramework">
+      <UniqueIdentifier>{e7e97b75-718a-4bd4-bc84-bbd0a56c06d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameFramework\Time">
+      <UniqueIdentifier>{fe82252a-bc41-47a3-be7e-b224f03c867b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameFramework\Settings">
+      <UniqueIdentifier>{dc2e170d-08fa-4a6a-a280-88538a23c12a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameFramework\Math">
+      <UniqueIdentifier>{01dc8548-f5d3-47b0-bf1b-fe2363b7cb2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameFramework\Renderer">
+      <UniqueIdentifier>{9552ac4f-fdd6-4c27-ae68-fda2c826dc44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameFramework\Renderer\OpenGLRenderer">
+      <UniqueIdentifier>{bbd06287-1eca-47e7-a379-b1095abdae79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RetroSpace">
+      <UniqueIdentifier>{37ea5ac5-c5dc-4f81-9f25-4fbf4696c397}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RetroSpace\GameObjects">
+      <UniqueIdentifier>{5a59c258-b7b6-495f-8b17-4e9b3cbec5a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RetroSpace\GameObjects\General">
+      <UniqueIdentifier>{dabab9b6-d44f-4903-84d4-81b82e4c5a53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RetroSpace\GameObjects\Particle">
+      <UniqueIdentifier>{8c813ee1-97d6-4cd4-aaeb-f8d339887cc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RetroSpace\GameObjects\Particle\Effects">
+      <UniqueIdentifier>{ffbf7267-ed39-40ce-868f-f6fcc40312c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RetroSpace\GameObjects\Weapon">
+      <UniqueIdentifier>{12a2c324-4903-456c-9d5b-6cb05e01dfce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RetroSpace\GameObjects\Powerup">
+      <UniqueIdentifier>{b29ac2b4-c58a-4e68-993f-17bee778b6ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RetroSpace\Settings">
+      <UniqueIdentifier>{85f7ce6e-2239-414c-a5a9-7fc8b991a002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RetroSpace\GameObjects\Ship">
+      <UniqueIdentifier>{3b33ec15-d7b0-4058-a0e0-35d592f66d5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RetroSpace\Player">
+      <UniqueIdentifier>{3bb9f63f-93d8-4992-9f74-009d1c29ab09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameFramework\Window">
+      <UniqueIdentifier>{03fcd74c-aadc-493c-8ca2-bd26fa6b333b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameFramework\Window\SDLWindow">
+      <UniqueIdentifier>{71808d10-9a65-4a35-b5ca-f3da8fd7e368}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RetroSpace\GUI">
+      <UniqueIdentifier>{0cefe95c-eaca-4ab0-8a9d-a96e65f2780d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameFramework\ObjectBase">
+      <UniqueIdentifier>{c5f9205e-90dd-4d6e-87f6-7c423f4fffb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameFramework\Log">
+      <UniqueIdentifier>{0e85fa9a-8268-4012-8656-bf216a0ca7fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameFramework\Renderer\Resource">
+      <UniqueIdentifier>{a8045025-659d-4e60-8980-e6ed2d2cc015}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RetroSpaceGame.cpp">
+      <Filter>Source Files\RetroSpace</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGLRenderer.cpp">
+      <Filter>Source Files\GameFramework\Renderer\OpenGLRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGLTexture.cpp">
+      <Filter>Source Files\GameFramework\Renderer\OpenGLRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="BMPImage.cpp">
+      <Filter>Source Files\GameFramework\Renderer\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGLSpriteFont.cpp">
+      <Filter>Source Files\GameFramework\Renderer\OpenGLRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="SDLKeyboard.cpp">
+      <Filter>Source Files\GameFramework\Window\SDLWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="SDLMouse.cpp">
+      <Filter>Source Files\GameFramework\Window\SDLWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="SDLWindow.cpp">
+      <Filter>Source Files\GameFramework\Window\SDLWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTime.cpp">
+      <Filter>Source Files\GameFramework\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>Source Files\RetroSpace\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Planet.cpp">
+      <Filter>Source Files\RetroSpace\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files\RetroSpace\GameObjects\General</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>Source Files\GameFramework\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Source Files\RetroSpace\GameObjects\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Source Files\RetroSpace\GameObjects\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Powerup.cpp">
+      <Filter>Source Files\RetroSpace\GameObjects\Powerup</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerupSystem.cpp">
+      <Filter>Source Files\RetroSpace\GameObjects\Powerup</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGLDisplayList.cpp">
+      <Filter>Source Files\GameFramework\Renderer\OpenGLRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorSettings.cpp">
+      <Filter>Source Files\RetroSpace\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSettings.cpp">
+      <Filter>Source Files\RetroSpace\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlsSettings.cpp">
+      <Filter>Source Files\RetroSpace\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyValueSerializer.cpp">
+      <Filter>Source Files\GameFramework\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.cpp">
+      <Filter>Source Files\GameFramework\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\GameFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSettings.cpp">
+      <Filter>Source Files\GameFramework\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyValueDeserializer.cpp">
+      <Filter>Source Files\GameFramework\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="Ship.cpp">
+      <Filter>Source Files\RetroSpace\GameObjects\Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponTypes.cpp">
+      <Filter>Source Files\RetroSpace\GameObjects\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="MovableObject.cpp">
+      <Filter>Source Files\RetroSpace\GameObjects\General</Filter>
+    </ClCompile>
+    <ClCompile Include="MovableSpaceObject.cpp">
+      <Filter>Source Files\RetroSpace\GameObjects\General</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Source Files\RetroSpace\GameObjects\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="MathHelper.cpp">
+      <Filter>Source Files\GameFramework\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>Source Files\GameFramework\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="ShipResource.cpp">
+      <Filter>Source Files\RetroSpace\GameObjects\Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="ShipResources.cpp">
+      <Filter>Source Files\RetroSpace\GameObjects\Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleEmitter.cpp">
+      <Filter>Source Files\RetroSpace\GameObjects\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls.cpp">
+      <Filter>Source Files\RetroSpace\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="TextObject.cpp">
+      <Filter>Source Files\RetroSpace\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files\RetroSpace\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Submenu.cpp">
+      <Filter>Source Files\RetroSpace\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerGUI.cpp">
+      <Filter>Source Files\RetroSpace\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="StatusText.cpp">
+      <Filter>Source Files\RetroSpace\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressBar.cpp">
+      <Filter>Source Files\RetroSpace\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="FpsCounter.cpp">
+      <Filter>Source Files\GameFramework\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Source Files\GameFramework\Log</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OpenGLPrerequisites.h">
+      <Filter>Source Files\GameFramework\Renderer\OpenGLRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLRenderer.h">
+      <Filter>Source Files\GameFramework\Renderer\OpenGLRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLSpriteFont.h">
+      <Filter>Source Files\GameFramework\Renderer\OpenGLRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLTexture.h">
+      <Filter>Source Files\GameFramework\Renderer\OpenGLRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Source Files\GameFramework\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteFont.h">
+      <Filter>Source Files\GameFramework\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Source Files\GameFramework\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="BMPImage.h">
+      <Filter>Source Files\GameFramework\Renderer\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>Source Files\GameFramework\Renderer\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageFactory.h">
+      <Filter>Source Files\GameFramework\Renderer\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="RetroSpaceGame.h">
+      <Filter>Source Files\RetroSpace</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Source Files\GameFramework\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Source Files\GameFramework\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderWindow.h">
+      <Filter>Source Files\GameFramework\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="SDLKeyboard.h">
+      <Filter>Source Files\GameFramework\Window\SDLWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="SDLMouse.h">
+      <Filter>Source Files\GameFramework\Window\SDLWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="SDLWindow.h">
+      <Filter>Source Files\GameFramework\Window\SDLWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTime.h">
+      <Filter>Source Files\GameFramework\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeSpan.h">
+      <Filter>Source Files\GameFramework\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="RendererSelector.h">
+      <Filter>Source Files\GameFramework\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderWindowSelector.h">
+      <Filter>Source Files\GameFramework\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>Source Files\RetroSpace\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Planet.h">
+      <Filter>Source Files\RetroSpace\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Source Files\RetroSpace\GameObjects\General</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLDisplayList.h">
+      <Filter>Source Files\GameFramework\Renderer\OpenGLRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>Source Files\GameFramework\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="ExplodeParticleEffect.h">
+      <Filter>Source Files\RetroSpace\GameObjects\Particle\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleEffectFactory.h">
+      <Filter>Source Files\RetroSpace\GameObjects\Particle\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleEffect.h">
+      <Filter>Source Files\RetroSpace\GameObjects\Particle\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Source Files\RetroSpace\GameObjects\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Source Files\RetroSpace\GameObjects\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Powerup.h">
+      <Filter>Source Files\RetroSpace\GameObjects\Powerup</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerupSystem.h">
+      <Filter>Source Files\RetroSpace\GameObjects\Powerup</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorSettings.h">
+      <Filter>Source Files\RetroSpace\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSettings.h">
+      <Filter>Source Files\RetroSpace\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlsSettings.h">
+      <Filter>Source Files\RetroSpace\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyValueSerializer.h">
+      <Filter>Source Files\GameFramework\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Source Files\GameFramework\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Source Files\GameFramework\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Source Files\GameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSettings.h">
+      <Filter>Source Files\GameFramework\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemTime.h">
+      <Filter>Source Files\GameFramework\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyValueDeserializer.h">
+      <Filter>Source Files\GameFramework\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponTypes.h">
+      <Filter>Source Files\RetroSpace\GameObjects\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="SDLPrerequisites.h">
+      <Filter>Source Files\GameFramework\Window\SDLWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Ship.h">
+      <Filter>Source Files\RetroSpace\GameObjects\Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="TrailParticleEffect.h">
+      <Filter>Source Files\RetroSpace\GameObjects\Particle\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="MovableObject.h">
+      <Filter>Source Files\RetroSpace\GameObjects\General</Filter>
+    </ClInclude>
+    <ClInclude Include="MovableSpaceObject.h">
+      <Filter>Source Files\RetroSpace\GameObjects\General</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Source Files\RetroSpace\GameObjects\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Source Files\RetroSpace\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="IBasicGameObject.h">
+      <Filter>Source Files\GameFramework\ObjectBase</Filter>
+    </ClInclude>
+    <ClInclude Include="IDrawableObject.h">
+      <Filter>Source Files\GameFramework\ObjectBase</Filter>
+    </ClInclude>
+    <ClInclude Include="IUpdatableObject.h">
+      <Filter>Source Files\GameFramework\ObjectBase</Filter>
+    </ClInclude>
+    <ClInclude Include="MathHelper.h">
+      <Filter>Source Files\GameFramework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Source Files\GameFramework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Source Files\GameFramework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Source Files\GameFramework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Source Files\GameFramework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="IWindowEventListener.h">
+      <Filter>Source Files\GameFramework\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="ShipResource.h">
+      <Filter>Source Files\RetroSpace\GameObjects\Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="ShipResources.h">
+      <Filter>Source Files\RetroSpace\GameObjects\Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleEmitter.h">
+      <Filter>Source Files\RetroSpace\GameObjects\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls.h">
+      <Filter>Source Files\RetroSpace\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="TextObject.h">
+      <Filter>Source Files\RetroSpace\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Source Files\RetroSpace\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Submenu.h">
+      <Filter>Source Files\RetroSpace\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerGUI.h">
+      <Filter>Source Files\RetroSpace\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="StatusText.h">
+      <Filter>Source Files\RetroSpace\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressBar.h">
+      <Filter>Source Files\RetroSpace\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="FpsCounter.h">
+      <Filter>Source Files\GameFramework\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Source Files\GameFramework\Log</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RetroSpace.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Makefile">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RetroSpace.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,564 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GameFramework::FpsCounter" Collapsed="true">
+    <Position X="12.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACYAAAACAAEADAAIAACAQEAgAAAAAAQAAAQAAAEAAAA=</HashCode>
+      <FileName>FpsCounter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameFramework::Log" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIhIBMAIAAAAAAAAQAA=</HashCode>
+      <FileName>Log.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameFramework::Game" Collapsed="true">
+    <Position X="10" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQQAAAAAAAIAg0AAAEoAAABAAAiAECCAIAAAAQGCQBI=</HashCode>
+      <FileName>Game.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameFramework::BMPImage" Collapsed="true">
+    <Position X="21.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAACAAAAAAAAAAAAAAAAgABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BMPImage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameFramework::ImageFactory" Collapsed="true">
+    <Position X="20" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>ImageFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameFramework::Image" Collapsed="true">
+    <Position X="21.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAgAAAAAAAAECAAAAAAAAAAABACBIAAAABAAIAAAA=</HashCode>
+      <FileName>Image.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameFramework::GameTime" Collapsed="true">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBAAiAAAAAhAAAAAGIAAAAAAAAQAIAAAQCABAwAAA=</HashCode>
+      <FileName>GameTime.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameFramework::SystemTime" Collapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAACAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SystemTime.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameFramework::TimeSpan" Collapsed="true">
+    <Position X="15.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAQAAAQAIAAAAAIQhAAAAAAA=</HashCode>
+      <FileName>TimeSpan.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameFramework::FrameworkSettings" Collapsed="true">
+    <Position X="4.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAACACAIAAgACAggAgAAAAAAA=</HashCode>
+      <FileName>FrameworkSettings.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameFramework::KeyValueDeserializer" Collapsed="true">
+    <Position X="8" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAIEQAAAAAAAAQAABAAABAAAAAAAABgAAA=</HashCode>
+      <FileName>KeyValueDeserializer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameFramework::Settings" Collapsed="true">
+    <Position X="6.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAAAAAAAAAAAACAIAAgAIAgAAAIEAAAAA=</HashCode>
+      <FileName>Settings.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameFramework::KeyValueSerializer" Collapsed="true">
+    <Position X="8" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIBAAAAAEAAAAAAAAAAAAAIAAAAEIAAAAAFCAAA=</HashCode>
+      <FileName>KeyValueSerializer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameFramework::Matrix" Collapsed="true">
+    <Position X="18.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQQQAgIAMAAAAAIBCUCAECEgAAAAAEAkAAABAgI=</HashCode>
+      <FileName>Matrix.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameFramework::Random" Collapsed="true">
+    <Position X="20.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAEAAAAAAAEAABAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Random.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameFramework::MathHelper" Collapsed="true">
+    <Position X="18.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAJAAAAAAAAACICAEAEAAAABAAAgkAAAAAABAA=</HashCode>
+      <FileName>MathHelper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameFramework::Color" Collapsed="true">
+    <Position X="16" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAGAARAAAAAAgBACRAIAQAAVAAQAAAAgAAgqDEAAQA=</HashCode>
+      <FileName>Color.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameFramework::Shape" Collapsed="true">
+    <Position X="18" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEg9IAwIBBBQAACRAQAgAAARAaAAAAAAQFNAIQBAIAA=</HashCode>
+      <FileName>Shape.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameFramework::RendererSelector" Collapsed="true">
+    <Position X="12" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RendererSelector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameFramework::SpriteFont" Collapsed="true">
+    <Position X="16" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIQAAABAAABAAAAAAggAARAAAAEAAACAAAAAAAAA=</HashCode>
+      <FileName>SpriteFont.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameFramework::Renderer" Collapsed="true">
+    <Position X="14" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAJAAAQCBAAgkAAAAACAAAEiEIEiAQABKIAA=</HashCode>
+      <FileName>Renderer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameFramework::Texture" Collapsed="true">
+    <Position X="18" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAgACAAAAAgACAAAAAAAAAAAAAAAAAAAIBAAIAAAA=</HashCode>
+      <FileName>Texture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameFramework::OpenGLDisplayList" Collapsed="true">
+    <Position X="12.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAgAAAAAAAAEAEEgAAAAAQAEAEBAIAA=</HashCode>
+      <FileName>OpenGLDisplayList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameFramework::OpenGLSpriteFont" Collapsed="true">
+    <Position X="16" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAACgAAAAAAAAAAAAMAAAAAAAAAAAAA=</HashCode>
+      <FileName>OpenGLSpriteFont.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameFramework::OpenGLTexture" Collapsed="true">
+    <Position X="18" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAgACAAAAIAAAAAAAAAAAAAAAAACAAAAAAAAAAAQA=</HashCode>
+      <FileName>OpenGLTexture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameFramework::OpenGLRenderer" Collapsed="true">
+    <Position X="14" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAIAAJAAAQCAABgEAAAAABAAAECEIEoAQEBKAAA=</HashCode>
+      <FileName>OpenGLRenderer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameFramework::IBasicGameObject" Collapsed="true">
+    <Position X="15" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IBasicGameObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameFramework::IDrawableObject" Collapsed="true">
+    <Position X="16.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAhAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IDrawableObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameFramework::IUpdatableObject" Collapsed="true">
+    <Position X="13.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IUpdatableObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameFramework::IWindowEventListener" Collapsed="true">
+    <Position X="10" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgEAAAAgAAAgAAAAAEAAAAAAAAAGAAAA=</HashCode>
+      <FileName>IWindowEventListener.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameFramework::RenderWindowSelector" Collapsed="true">
+    <Position X="8" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>RenderWindowSelector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameFramework::Mouse" Collapsed="true">
+    <Position X="2" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAIEAAAAAAgAAACAAAAAoAAAAAAAAQAAAA=</HashCode>
+      <FileName>Mouse.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameFramework::RenderWindow" Collapsed="true">
+    <Position X="6" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAFAAAAgCACAAgABAATAAAAAAECAAAAAAAMAKAg=</HashCode>
+      <FileName>RenderWindow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameFramework::Keyboard" Collapsed="true">
+    <Position X="4" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAACAAgAAAAAAAAAAIAAAAAAQAAAAAA=</HashCode>
+      <FileName>Keyboard.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameFramework::SDLKeyboard" Collapsed="true">
+    <Position X="4" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAQAAAQAAgEAAAAgBAAAAAAAAAIAAAAAAQAQAAAA=</HashCode>
+      <FileName>SDLKeyboard.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameFramework::SDLMouse" Collapsed="true">
+    <Position X="2" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAIAAAAAAKEAAAECAQAAACAAAAAoAAAAAAAASAAAA=</HashCode>
+      <FileName>SDLMouse.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameFramework::SDLWindow" Collapsed="true">
+    <Position X="6" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAEAAAAAAAAAAAAAAEAAAAEAAAAAAAQEQIAI=</HashCode>
+      <FileName>SDLWindow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroSpace::RetroSpaceGame" Collapsed="true">
+    <Position X="10" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQQAYqAIAAAg0gAQEoECJAABAAAEAIAAAACAAnQAAA=</HashCode>
+      <FileName>RetroSpaceGame.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroSpace::Background" Collapsed="true">
+    <Position X="12" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABABEAggAAAAAAgAAAAAAAAAAAEggAAAAAAA=</HashCode>
+      <FileName>Background.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroSpace::Planet" Collapsed="true">
+    <Position X="8" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARAAAAAAAABAwABECAAAAQAABAgAAEAAAoAEIgAIAA=</HashCode>
+      <FileName>Planet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroSpace::ProgressBar" Collapsed="true">
+    <Position X="20" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CABAACgAAAAAOgCAAIAIAgAACQBIAAAABAAAAAIAgAE=</HashCode>
+      <FileName>ProgressBar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroSpace::StatusText" Collapsed="true">
+    <Position X="18" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACAAQAAAAAgACBAAAAAAABAAACIAgAAAABAAAAAA=</HashCode>
+      <FileName>StatusText.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroSpace::MovableObject" Collapsed="true">
+    <Position X="6" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAAAIEAAAAAgAAgAAAAAAAAAAAAEQAEAAABAAAAAA=</HashCode>
+      <FileName>MovableObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroSpace::GameObject" Collapsed="true">
+    <Position X="15" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAAABAACCEAiAAABAAAAQAAAABAggAIAAIAgMAAQA=</HashCode>
+      <FileName>GameObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroSpace::MovableSpaceObject" Collapsed="true">
+    <Position X="5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAgAAAAAgAQAAgAAAAAAAAAgAAAAAAAAAIgAAA=</HashCode>
+      <FileName>MovableSpaceObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroSpace::TextObject" Collapsed="true">
+    <Position X="18" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQAAACAYAAAAgAAAIAAAADAAAAAAACAFAoIAEBAAAA=</HashCode>
+      <FileName>TextObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroSpace::Particle" Collapsed="true">
+    <Position X="7" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQwAAACAAABACgAAgAQAAAAABAAACIAAAgAAAAgAIAA=</HashCode>
+      <FileName>Particle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroSpace::ExplodeParticleEffect" Collapsed="true">
+    <Position X="11" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAEAQAIAAgAAAAAAAgAAAAAAQAQEAAAAAECAA=</HashCode>
+      <FileName>ExplodeParticleEffect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroSpace::ParticleEffect" Collapsed="true">
+    <Position X="10" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAABAEEWAIAAgAAAAAAAgAAAACMAASEgABAAEYAA=</HashCode>
+      <FileName>ParticleEffect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroSpace::ParticleEffectFactory" Collapsed="true">
+    <Position X="10" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ParticleEffectFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroSpace::TrailParticleEffect" Collapsed="true">
+    <Position X="8.75" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAEAQAIAAgAAAAAAAgAAAAAAQAQEAAAgAEAAA=</HashCode>
+      <FileName>TrailParticleEffect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroSpace::Projectile" Collapsed="true">
+    <Position X="6" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYQAAAAAAIgAAgAAAhAAAAwABIAAAAgAAAAAAAAAoAA=</HashCode>
+      <FileName>Projectile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroSpace::Weapon" Collapsed="true">
+    <Position X="14" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAYAAAACAAAEBgAAAAgAAgQAAAgEgAkQAAAAAAAAABA=</HashCode>
+      <FileName>Weapon.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroSpace::WeaponTypes" Collapsed="true">
+    <Position X="14" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAIAAAAAAAABAAAAAIAASAIAAAAAAAAEgAAAAAAAA=</HashCode>
+      <FileName>WeaponTypes.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroSpace::Powerup" Collapsed="true">
+    <Position X="16" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAQAARAAqAAoAAAiAAIAQCBBAACoEEGgABAAgABAA=</HashCode>
+      <FileName>Powerup.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroSpace::PowerupSystem" Collapsed="true">
+    <Position X="16.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAKAAIAgEBgAgAAAAAAWQCAAgAAFQAkgIAAQAAAA=</HashCode>
+      <FileName>PowerupSystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroSpace::ShipResource" Collapsed="true">
+    <Position X="0.5" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACCAEAEAIAAAAQIAAAgQAAAAABAEAAAACAAAAAAo=</HashCode>
+      <FileName>ShipResource.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroSpace::ShipResources" Collapsed="true">
+    <Position X="2.25" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACAAAAAEAAAAAAgAEAYAAAIAAAAEAACAAAAAAAIA=</HashCode>
+      <FileName>ShipResources.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroSpace::Ship" Collapsed="true">
+    <Position X="4" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYYAIAAIAAIEBgA4QBoCCEwACRiBAAGAAEgASAAIgBA=</HashCode>
+      <FileName>Ship.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroSpace::ControlsSettings" Collapsed="true">
+    <Position X="8" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAIAAAAAAACACQIACgACAgAAgAAAAAAA=</HashCode>
+      <FileName>ControlsSettings.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroSpace::GameSettings" Collapsed="true">
+    <Position X="4.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAABAAAAAAAAAACACAIAAgACAgAAgIAAAAgA=</HashCode>
+      <FileName>GameSettings.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroSpace::ColorSettings" Collapsed="true">
+    <Position X="6.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgCAAAAAIAQACAAQIAACASAYAAgACAgAAgAAAAAAA=</HashCode>
+      <FileName>ColorSettings.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroSpace::Menu" Collapsed="true">
+    <Position X="22" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIACSUAAUANEAhgBECiAAAiACgAKgBAgChAAAYABCBE=</HashCode>
+      <FileName>Menu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroSpace::Submenu" Collapsed="true">
+    <Position X="23.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEACAAIGYBAAAmAhAAAABABQiAAAIBQABAQApAQAAAI=</HashCode>
+      <FileName>Submenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroSpace::PlayerGUI" Collapsed="true">
+    <Position X="18.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAgCAgAhAAAwCAQAAAAAAAQAAAggAAAEgAAMEgAFA=</HashCode>
+      <FileName>PlayerGUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroSpace::Player" Collapsed="true">
+    <Position X="12" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAIAAAACAAAABACAAAAAAAAAAAAAAAAAAAAEwQAABBA=</HashCode>
+      <FileName>Player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroSpace::Controls" Collapsed="true">
+    <Position X="12" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAgCAAAAAECYAAwAAAAAAAKKCAAGAEAIgAAAAAAA=</HashCode>
+      <FileName>Controls.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroSpace::ParticleEmitter" Collapsed="true">
+    <Position X="10" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAABAAAAAgAQECAAAAAAgCAAABAAAAAAAEAAAAI=</HashCode>
+      <FileName>ParticleEmitter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="GameFramework::Vector2&lt;T&gt;" Collapsed="true">
+    <Position X="20.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAABQAAAEAAAAQBACQAAAAAAAABgAAAAAAA=</HashCode>
+      <FileName>Vector2.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="GameFramework::Vector3&lt;T&gt;" Collapsed="true">
+    <Position X="24.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAEAAAAABAAAAAAAAAAABgAQAAAAA=</HashCode>
+      <FileName>Vector3.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="GameFramework::Vector2f" Collapsed="true">
+    <Position X="21.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Vector2.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="GameFramework::Vector2i" Collapsed="true">
+    <Position X="19.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Vector2.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="GameFramework::Point2f" Collapsed="true">
+    <Position X="21.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Vector2.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="GameFramework::Point2i" Collapsed="true">
+    <Position X="17.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Vector2.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="GameFramework::Size2f" Collapsed="true">
+    <Position X="23" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Vector2.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="GameFramework::Size2i" Collapsed="true">
+    <Position X="19.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Vector2.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="GameFramework::Vector3f" Collapsed="true">
+    <Position X="24.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Vector3.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="GameFramework::Point3f" Collapsed="true">
+    <Position X="24.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Vector3.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="GameFramework::BtnCode" Collapsed="true">
+    <Position X="2" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAgAAAAAAAAQAAYACEAAAAAAACA=</HashCode>
+      <FileName>Mouse.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GameFramework::KeyCode" Collapsed="true">
+    <Position X="4" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASEHpAQFA5v4f+j/F4sZSCQhIgL4n5otjMIAEp0AgCg=</HashCode>
+      <FileName>Keyboard.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

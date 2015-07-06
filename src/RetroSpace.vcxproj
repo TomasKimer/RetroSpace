@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C7CCC5E2-D676-4AFA-9E31-E667B077ADF8}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>RetroSpace</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EntryPointSymbol>
+      </EntryPointSymbol>
+      <AdditionalOptions>/NODEFAULTLIB:msvcrt.lib %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;SDL.lib;SDLmain.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EntryPointSymbol>
+      </EntryPointSymbol>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;SDL.lib;SDLmain.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Background.cpp" />
+    <ClCompile Include="BMPImage.cpp" />
+    <ClCompile Include="Controls.cpp" />
+    <ClCompile Include="ControlsSettings.cpp" />
+    <ClCompile Include="FrameworkSettings.cpp" />
+    <ClCompile Include="GameSettings.cpp" />
+    <ClCompile Include="KeyValueDeserializer.cpp" />
+    <ClCompile Include="MathHelper.cpp" />
+    <ClCompile Include="Matrix.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="MovableObject.cpp" />
+    <ClCompile Include="OpenGLDisplayList.cpp" />
+    <ClCompile Include="ParticleEmitter.cpp" />
+    <ClCompile Include="Planet.cpp" />
+    <ClCompile Include="PlayerGUI.cpp" />
+    <ClCompile Include="Powerup.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="FpsCounter.cpp" />
+    <ClCompile Include="Particle.cpp" />
+    <ClCompile Include="MovableSpaceObject.cpp" />
+    <ClCompile Include="PowerupSystem.cpp" />
+    <ClCompile Include="ProgressBar.cpp" />
+    <ClCompile Include="Projectile.cpp" />
+    <ClCompile Include="ColorSettings.cpp" />
+    <ClCompile Include="Settings.cpp" />
+    <ClCompile Include="Shape.cpp" />
+    <ClCompile Include="ShipResource.cpp" />
+    <ClCompile Include="ShipResources.cpp" />
+    <ClCompile Include="StatusText.cpp" />
+    <ClCompile Include="Submenu.cpp" />
+    <ClCompile Include="TextObject.cpp" />
+    <ClCompile Include="Ship.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameTime.cpp" />
+    <ClCompile Include="Log.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="OpenGLSpriteFont.cpp" />
+    <ClCompile Include="OpenGLRenderer.cpp" />
+    <ClCompile Include="OpenGLTexture.cpp" />
+    <ClCompile Include="RetroSpaceGame.cpp" />
+    <ClCompile Include="SDLKeyboard.cpp" />
+    <ClCompile Include="SDLMouse.cpp" />
+    <ClCompile Include="SDLWindow.cpp" />
+    <ClCompile Include="KeyValueSerializer.cpp" />
+    <ClCompile Include="Weapon.cpp" />
+    <ClCompile Include="WeaponTypes.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Background.h" />
+    <ClInclude Include="BMPImage.h" />
+    <ClInclude Include="Controls.h" />
+    <ClInclude Include="ControlsSettings.h" />
+    <ClInclude Include="ExplodeParticleEffect.h" />
+    <ClInclude Include="FrameworkSettings.h" />
+    <ClInclude Include="GameSettings.h" />
+    <ClInclude Include="IBasicGameObject.h" />
+    <ClInclude Include="IDrawableObject.h" />
+    <ClInclude Include="IUpdatableObject.h" />
+    <ClInclude Include="IWindowEventListener.h" />
+    <ClInclude Include="KeyValueDeserializer.h" />
+    <ClInclude Include="Matrix.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="MovableObject.h" />
+    <ClInclude Include="OpenGLDisplayList.h" />
+    <ClInclude Include="ParticleEffect.h" />
+    <ClInclude Include="ParticleEffectFactory.h" />
+    <ClInclude Include="ParticleEmitter.h" />
+    <ClInclude Include="Planet.h" />
+    <ClInclude Include="PlayerGUI.h" />
+    <ClInclude Include="Powerup.h" />
+    <ClInclude Include="Color.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="FpsCounter.h" />
+    <ClInclude Include="Particle.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="MovableSpaceObject.h" />
+    <ClInclude Include="PowerupSystem.h" />
+    <ClInclude Include="ProgressBar.h" />
+    <ClInclude Include="Projectile.h" />
+    <ClInclude Include="Random.h" />
+    <ClInclude Include="ColorSettings.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SDLPrerequisites.h" />
+    <ClInclude Include="Settings.h" />
+    <ClInclude Include="Shape.h" />
+    <ClInclude Include="ShipResource.h" />
+    <ClInclude Include="ShipResources.h" />
+    <ClInclude Include="TrailParticleEffect.h" />
+    <ClInclude Include="StatusText.h" />
+    <ClInclude Include="Submenu.h" />
+    <ClInclude Include="TextObject.h" />
+    <ClInclude Include="ImageFactory.h" />
+    <ClInclude Include="MathHelper.h" />
+    <ClInclude Include="RendererSelector.h" />
+    <ClInclude Include="RenderWindowSelector.h" />
+    <ClInclude Include="Ship.h" />
+    <ClInclude Include="SpriteFont.h" />
+    <ClInclude Include="GameTime.h" />
+    <ClInclude Include="Image.h" />
+    <ClInclude Include="Log.h" />
+    <ClInclude Include="Mouse.h" />
+    <ClInclude Include="OpenGLSpriteFont.h" />
+    <ClInclude Include="OpenGLPrerequisites.h" />
+    <ClInclude Include="OpenGLTexture.h" />
+    <ClInclude Include="RenderWindow.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Renderer.h" />
+    <ClInclude Include="Keyboard.h" />
+    <ClInclude Include="OpenGLRenderer.h" />
+    <ClInclude Include="RetroSpaceGame.h" />
+    <ClInclude Include="SDLKeyboard.h" />
+    <ClInclude Include="SDLMouse.h" />
+    <ClInclude Include="SystemTime.h" />
+    <ClInclude Include="SDLWindow.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="TimeSpan.h" />
+    <ClInclude Include="KeyValueSerializer.h" />
+    <ClInclude Include="Vector2.h" />
+    <ClInclude Include="Vector3.h" />
+    <ClInclude Include="Weapon.h" />
+    <ClInclude Include="WeaponTypes.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="Makefile" />
+    <None Include="RetroSpace.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RetroSpace.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
